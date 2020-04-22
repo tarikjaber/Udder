@@ -10,7 +10,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            Text("Udder").font(.largeTitle)
+            Text("Get fresh milk fast")
+            Spacer()
+            Image("CowMilk")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .padding()
+            Spacer()
+        }
     }
 }
 
