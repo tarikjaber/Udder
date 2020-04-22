@@ -13,6 +13,10 @@ struct ContentView: View {
         VStack {
             Text("Udder").font(.largeTitle)
             Text("Get fresh milk fast")
+            Image("CowMilk")
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .padding()
             Spacer()
             Image("CowMilk")
                 .resizable()
